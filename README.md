@@ -7,7 +7,7 @@
 
 ## Overview
 
-This project evaluates the metacognitive abilities of state-of-the-art Large Language Models (LLMs), including GPT-4, Gemini 1.5 Pro, Claude 3 Opus, and ChatGPT. Through the creation of a dataset of **faulty science questions**, the project assesses the models' ability to detect errors, admit and correct mistakes, and maintain consistent responses. The goal is to highlight areas where LLMs fall short in scientific reasoning, moving beyond surface-level pattern recognition.
+This project evaluates the metacognitive abilities of state-of-the-art Large Language Models (LLMs), including GPT-4o, Claude 3.5 Haiku, Llama 3.2, Qwen 2.5, and Gemma 2. Through the creation of a dataset of **faulty science questions**, the project assesses the models' ability to detect errors, admit and correct mistakes, and maintain consistent responses. The goal is to highlight areas where LLMs fall short in scientific reasoning, moving beyond surface-level pattern recognition.
 
 ---
 
