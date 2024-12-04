@@ -111,10 +111,12 @@ The dataset includes the following columns:
 
 ## Repository Structure
 
-- `CSE584_Final_JeongwonBae.pdf`: Final project report.
+- `CSE584_Final_DataSet_JeongwonBae.xlsx`: Dataset containing all faulty questions and GPT-4o response.
 - `Experiment.ipynb`: Code for testing LLMs on faulty questions.
-- `Faulty_Science_Dataset.xlsx`: Dataset containing all faulty questions and analysis.
 - `Result_Extracted.ipynb`: Detailed result extraction and analysis.
+- `CSE584_Final_Project_JeongwonBae.pdf`: Final project report.
+- `dataset`: raw data of 600 questions and LLMs responses with experiment metrics.
+- `result`: raw data of the result extraction and analysis.
 
 ---
 
