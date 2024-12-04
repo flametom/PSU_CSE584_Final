@@ -7,7 +7,7 @@
 
 ## Overview
 
-This project evaluates the **metacognitive abilities** of state-of-the-art Large Language Models (LLMs), including GPT-4, Gemini 1.5 Pro, Claude 3 Opus, and ChatGPT. Through the creation of a dataset of **faulty science questions**, the project assesses the models' ability to detect errors, admit and correct mistakes, and maintain consistent responses. The goal is to highlight areas where LLMs fall short in scientific reasoning, moving beyond surface-level pattern recognition.
+This project evaluates the metacognitive abilities of state-of-the-art Large Language Models (LLMs), including GPT-4, Gemini 1.5 Pro, Claude 3 Opus, and ChatGPT. Through the creation of a dataset of **faulty science questions**, the project assesses the models' ability to detect errors, admit and correct mistakes, and maintain consistent responses. The goal is to highlight areas where LLMs fall short in scientific reasoning, moving beyond surface-level pattern recognition.
 
 ---
 
@@ -15,13 +15,12 @@ This project evaluates the **metacognitive abilities** of state-of-the-art Large
 
 1. **Dataset Creation**: Develop a diverse set of faulty science questions across various disciplines to evaluate LLMs' reasoning capabilities.
 2. **Experimental Evaluation**: Design and conduct experiments to test the models on error detection, correction, and response consistency.
-3. **Insights into Metacognition**: Identify key strengths and weaknesses in LLMs' metacognitive processes and suggest improvements.
 
 ---
 
 ## Dataset: Faulty Science Questions
 
-A total of **3,000 faulty questions** were initially generated, comprising 500 questions in each of six disciplines: Mathematics, Physics, Biology, Chemistry, Earth Science, and Computer Science. Due to computational limitations, the experimental dataset was reduced to **600 questions**, with 100 questions per discipline. The selection process used **cosine similarity analysis** to ensure diverse coverage and minimize redundancy.
+A total of 3,000 faulty questions were initially generated, comprising 500 questions in each of six disciplines: Mathematics, Physics, Biology, Chemistry, Earth Science, and Computer Science. Due to computational limitations, the experimental dataset was reduced to 600 questions, with 100 questions per discipline. The selection process used cosine similarity analysis to ensure diverse coverage and minimize redundancy.
 
 ---
 
@@ -69,7 +68,7 @@ The dataset includes the following columns:
 ### Evaluation Metrics
 
 - **Error Detection Rate (EDR)**: Percentage of questions where the LLM successfully identified an error.
-- **Error Identification Accuracy (EIA)**: Semantic similarity between the model's error identification and the actual fault.
+- **Error Identification Accuracy (EIA)**: Semantic similarity between the model's error identification and the actual faulty reason.
 - **Error Admission Rate (EAR)**: Percentage of instances where the LLM admitted its error upon receiving feedback.
 - **Correction Accuracy (CA)**: Improvement in error identification accuracy after feedback.
 - **Context Consistency Score (CCS)**: Degree to which the LLM's responses remained consistent across repeated interactions.
@@ -107,22 +106,6 @@ The dataset includes the following columns:
 | Llama 3.2-3B-Instruct  | 0.9399     |
 | Qwen 2.5-3B-Instruct   | 0.8977     |
 | Gemma-2-2B-It          | 0.9456     |
-
----
-
-## How to Reproduce
-
-1. Clone the repository:
-   ```bash
-   git clone [repository_link]
-   cd CSE584_Final
-   ```
-2. Access the dataset:
-   - The dataset is included in the repository as `Faulty_Science_Dataset.xlsx`.
-3. Run analysis scripts to evaluate LLM responses:
-   ```bash
-   jupyter notebook Experiment.ipynb
-   ```
 
 ---
 
