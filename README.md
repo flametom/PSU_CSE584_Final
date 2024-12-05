@@ -35,7 +35,7 @@ A total of 3,000 faulty questions were initially generated, comprising 500 quest
    - Do they admit the error and provide corrected answers, or justify their initial responses without acknowledging the mistake?
 
 3. **Consistency and Adaptation Over Repeated Interactions**: 
-   - How consistent are LLMs when faulty questions are posed one more time?
+   - How consistent are LLMs when faulty questions are posed again?
    - Can LLMs recognize and correct initial mistakes without external feedback?
 
 ---
